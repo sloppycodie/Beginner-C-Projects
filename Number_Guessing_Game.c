@@ -8,6 +8,7 @@ int main(){
     printf("Welcome to the Number Guessing Game!\n");
     do
     {
+        count++;
         printf("Enter your guess between 1-100:\t");
         scanf("%d",&guess);
         if (guess<randNum)
@@ -20,8 +21,9 @@ int main(){
         }
         else
         {
-            printf("Congratulations!! You have successfully guessed the random number.\n");
+            printf("Congratulations!! You have successfully guessed the random number in %d attempts.\n",count);
         }
+        
         
     } while (randNum!=guess);
     return 0;
