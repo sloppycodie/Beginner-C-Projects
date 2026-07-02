@@ -8,7 +8,7 @@ int main(){
     printf("Welcome to the Number Guessing Game!\n");
     do
     {
-        printf("Enter your guess:\t");
+        printf("Enter your guess between 1-100:\t");
         scanf("%d",&guess);
         if (guess<randNum)
         {
