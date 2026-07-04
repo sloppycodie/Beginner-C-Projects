@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <math.h>
-#include <unistd.h>//For the sleep function
 
 void options();
 double division(double,double);
@@ -58,7 +57,6 @@ int main(){
         if(!isnan(result)){
             printf("\nThe result of the operation is: %.3lf\n", result);
         }
-        sleep(2);//It delays the output for 2 seconds
     }
 }
 
