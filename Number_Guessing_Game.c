@@ -5,7 +5,9 @@ int main(){
     int randNum,guess,count=0;
     srand(time(NULL));
     randNum = rand()%100 +1;
-    printf("Welcome to the Number Guessing Game!\n");
+    printf("----------------------------------------------\n");
+    printf("*****Welcome to the Number Guessing Game!*****\n");
+    printf("----------------------------------------------\n");
     do
     {
         count++;
