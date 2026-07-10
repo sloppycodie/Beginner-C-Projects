@@ -5,29 +5,29 @@ void printMatrix(int mat[10][10],int row,int col);
 int main() {
     int matA[10][10],matB[10][10],matC[10][10];
     int rowsA,rowsB,colsA,colsB;
-    printf("Enter The Number Of Rows Of Matrix A: ");
+    printf("\nEnter The Number Of Rows Of Matrix A: ");
     scanf("%d",&rowsA);
-    printf("Enter The Number Of Columns Of Matrix A: ");
+    printf("\nEnter The Number Of Columns Of Matrix A: ");
     scanf("%d",&colsA);
-    printf("Enter The Values Of The Matrix A: ");
+    printf("\nEnter The Values Of The Matrix A: ");
     for (int i = 0; i < rowsA; i++)
     {
         for (int j = 0; j < colsA; j++)
         {
-            printf("For Row %d And Column %d : ",i+1,j+1);
+            printf("\nFor Row %d And Column %d : ",i+1,j+1);
             scanf("%d",&matA[i][j]);
         }
     }
-    printf("Enter The Number Of Rows Of Matrix B: ");
+    printf("\nEnter The Number Of Rows Of Matrix B: ");
     scanf("%d",&rowsB);
-    printf("Enter The Number Of Columns Of Matrix B: ");
+    printf("\nEnter The Number Of Columns Of Matrix B: ");
     scanf("%d",&colsB);
-    printf("Enter The Values Of The Matrix B: ");
+    printf("\nEnter The Values Of The Matrix B: ");
     for (int i = 0; i < rowsB; i++)
     {
         for (int j = 0; j < colsB; j++)
         {
-            printf("For Row %d And Column %d : ",i+1,j+1);
+            printf("\nFor Row %d And Column %d : ",i+1,j+1);
             scanf("%d",&matB[i][j]);
         }
     }
