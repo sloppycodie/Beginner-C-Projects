@@ -4,7 +4,7 @@
 int main() {
     time_t start, end;
     double elapsed;
-
+    printf("====== STOP WATCH ======");
     printf("Press Enter to start the stopwatch...");
     getchar();
 
